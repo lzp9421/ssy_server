@@ -42,7 +42,7 @@ class ssy_curl {
     function ssy_http_request($url,$post_fields='',$cookie=false)
     {
 		if($cookie!==false&&$cookie==='set'){
-		    $this->cookie_file = tempnam(SSY_DATADIR.'/tmp/cookie','cookie');
+		    $this->cookie_file = tempnam(SSY_DATADIR.'/tmp','cookie');
 		}
 		$ch=$this->ssy_curl_init($url,$post_fields);
         if($cookie=='set'){
