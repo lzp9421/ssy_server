@@ -1,2 +1,0 @@
-<?php
-define('SSY_KEY', 'aW7naT5I2X99047e7rf46oapdT8YdR0O0V7Ma79c5efrfL8c6g5d857AaBeZaF3C');
